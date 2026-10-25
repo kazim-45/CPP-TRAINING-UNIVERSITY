@@ -1,4 +1,5 @@
 #include<iostream>
+#include<iomanip>
 using namespace std;
 int main()
 {
@@ -15,6 +16,7 @@ int main()
 
     income = (A*cost_A) + (B*cost_B) + (C*cost_C);
 
+    cout<<fixed<<setprecision(2);
     cout<<"Total income generated = $"<<income<<endl;
 
     return 0;
