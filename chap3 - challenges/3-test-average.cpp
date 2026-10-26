@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-    int t1, t2, t3, t4, t5, sum, average;
+    double t1, t2, t3, t4, t5, sum, average;
 
     cout<<"Enter test 1 score: ";
     cin>>t1;
