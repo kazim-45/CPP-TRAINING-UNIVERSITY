@@ -19,6 +19,7 @@ int main()
     sum = t1+t2+t3+t4+t5;
     average = sum / 5;
 
+    cout<<fixed<<setprecision(1);
     cout<<"Average of the test scores = ";
     cout<<average<<endl;
 
