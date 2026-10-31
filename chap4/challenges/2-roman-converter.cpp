@@ -4,6 +4,7 @@ Input Validation: Do not accept a number less than 1 or greater than 10.*/
 
 #include<iostream>
 using namespace std;
+void roman(int);
 int main()
 {
     int number;
@@ -18,8 +19,16 @@ int main()
     }
     
     cout<<number<<" in roman: ";
+    roman(number);
 
-    switch(number)
+
+    cout<<endl;
+}
+
+void roman(int num)
+{
+
+    switch(num)
     {
         case 1: cout<<"I"; break;
         case 2: cout<<"II"; break;
@@ -32,6 +41,4 @@ int main()
         case 9: cout<<"IX"; break;
         case 10: cout<<"X"; break;
     }
-
-    cout<<endl;
 }
