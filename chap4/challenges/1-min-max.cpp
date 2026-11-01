@@ -2,14 +2,22 @@
 conditional operator to determine which number is the smaller and which is the larger.*/
 #include<iostream>
 using namespace std;
+void min_max(int, int);
 int main(){
     double a, b;
 
     cout<<"Enter first number: ";
     cin>>a;
-    cout<<"Enter second number:";
+    cout<<"Enter second number: ";
     cin>>b;
 
+    min_max(a,b);
+
+    return 0;
+}
+
+void min_max(int a, int b)
+{
     if (a==b)
      cout<<a<<" and "<<b<<" are equal"<<endl;
     else if (a>b)
@@ -17,5 +25,4 @@ int main(){
     else
      cout<<b<<" is larger than "<<a<<endl;
  
-    return 0;
 }
