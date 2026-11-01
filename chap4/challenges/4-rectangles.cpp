@@ -34,10 +34,10 @@ double area(double l, double w)
 
 void compareAreas(double a1, double a2)
 {
-    if (a1==a2)
-     cout<<"Both areas are fucking equal!"<<endl;
-    else if(a1>a2)
-     cout<<a1<<" is fucking greater than "<<a2<<endl;
+    if (a1>a2)
+    cout<<a1<<" is fucking greater than "<<a2<<endl;
+    else if(a2>a1)
+    cout<<a2<<" is fucking greater than "<<a2<<endl;
     else
-     cout<<a2<<" is fucking greater than "<<a2<<endl;
+    cout<<"Both areas are fucking equal!"<<endl;
 }
