@@ -51,6 +51,7 @@ double checkFees(int checks)
     else 
     return 0.04;
 }
+
 void total_fees(double bal, int checks, double check_fees)
 {
     const int DEFAULT_CHARGES = 10;
