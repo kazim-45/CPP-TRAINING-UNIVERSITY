@@ -105,8 +105,7 @@ void report(string d1, string d2, string d3, double h1, double h2, double h3)
             third_height = h2;
         }
     }
-    if (h1 == h2 || h2 == h3 || h1 == h3)
-{
+    if (h1 == h2 || h2 == h3 || h1 == h3){
     cout << "Heights are tied! No rankings could be made."<< endl;
     exit(0);
 }
