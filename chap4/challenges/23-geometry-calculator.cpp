@@ -90,7 +90,7 @@ void result(int c)
     }
 
     else if (c != 1 && c != 2 && c != 3 && c!= 4){
-        cout<<"Invalid choice.";
+        cout<<"Invalid choice."<<endl;
         exit(1);
     }
 }
