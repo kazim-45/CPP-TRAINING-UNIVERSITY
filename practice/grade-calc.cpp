@@ -26,6 +26,8 @@ double get_percentage(double obtained, double total)
 
 void grade(double percentage)
 {
+
+    cout<<"\nPercentage = "<<percentage<<"%"<<endl;
     
     if (percentage <= 100 && percentage >= 90)
     cout<<"Grade: A+"<<endl;
