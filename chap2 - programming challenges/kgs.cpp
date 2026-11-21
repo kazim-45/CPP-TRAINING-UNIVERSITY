@@ -9,7 +9,7 @@ int main()
 
     kilograms = pounds / 2.2;
 
-    cout<<"Your weight in kilograms is: "<<kilograms<<endl;
+    cout<<"Your weight in kilograms is: "<<kilograms<<"kg"<<endl;
 
     return 0;
 }
