@@ -8,6 +8,11 @@ int main()
     cout<<"How many floors are in this hotel? ";
     cin>>floors;
 
+    while (floors < 1){
+        cout<<"Enter valid no. of floors: ";
+        cin>>floors;
+    }
+
     double total_rooms = 0;
     double total_occupied = 0;
 
