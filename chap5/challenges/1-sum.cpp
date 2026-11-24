@@ -8,7 +8,7 @@ int main()
     cin>>num;
 
     while (num <= 0){
-        cout<<"Pick a positive number and greater than 0."<<endl;
+        cout<<"Please enter a positive number."<<endl;
         cout<<"Enter again: ";
         cin>>num;
     }
