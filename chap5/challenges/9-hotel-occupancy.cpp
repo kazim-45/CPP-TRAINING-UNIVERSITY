@@ -53,5 +53,5 @@ void report(double t_r, double t_o, double u_o, double rate)
     cout<<"Occupied rooms = "<<t_o<<endl;
     cout<<"Unoccupied rooms = "<<u_o<<endl;
     cout<< fixed <<setprecision(2);
-    cout<<"\nOccupancy rate = "<<rate<<endl;
+    cout<<"\nOccupancy rate = "<<rate<<"%"s<<endl;
 }
